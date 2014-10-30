@@ -16,6 +16,7 @@ myChannels = myData.channels
 A0 = myChannels["A-000"]
 
 plt.plot(A0.getTrace())
+plt.show()
 ```
 
 The RDH object also keeps track of the following data from the RHD file:
